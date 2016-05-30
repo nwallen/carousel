@@ -14,6 +14,7 @@
 		B11CD7FD1CFCBB340094C938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11CD7FB1CFCBB340094C938 /* LaunchScreen.storyboard */; };
 		B11CD8081CFCBB340094C938 /* carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8071CFCBB340094C938 /* carouselTests.swift */; };
 		B11CD8131CFCBB340094C938 /* carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8121CFCBB340094C938 /* carouselUITests.swift */; };
+		B11CD8211CFCBCC50094C938 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8201CFCBCC50094C938 /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B11CD80E1CFCBB340094C938 /* carouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = carouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11CD8121CFCBB340094C938 /* carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselUITests.swift; sourceTree = "<group>"; };
 		B11CD8141CFCBB340094C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B11CD8201CFCBCC50094C938 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B11CD7F11CFCBB340094C938 /* carousel */ = {
 			isa = PBXGroup;
 			children = (
+				B11CD8201CFCBCC50094C938 /* Common.swift */,
 				B11CD7F21CFCBB340094C938 /* AppDelegate.swift */,
 				B11CD7F41CFCBB340094C938 /* ViewController.swift */,
 				B11CD7F61CFCBB340094C938 /* Main.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B11CD7F51CFCBB340094C938 /* ViewController.swift in Sources */,
+				B11CD8211CFCBCC50094C938 /* Common.swift in Sources */,
 				B11CD7F31CFCBB340094C938 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
