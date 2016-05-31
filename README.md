@@ -58,7 +58,7 @@ Time spent: `8`
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
 1. UIAlerts are pretty tedious to setup. Easier way? Can we write a function for this?
-2. How to highlight form fields or buttons to draw attention missing info.
+2. How to highlight form fields or buttons to draw attention to missing info.
 
 ### Video Walkthrough 
 
