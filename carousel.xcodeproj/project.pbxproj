@@ -22,6 +22,7 @@
 		B11CD82B1CFCFAED0094C938 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */; };
 		B11CD82D1CFCFCB80094C938 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */; };
 		B11CD82F1CFD0D300094C938 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82E1CFD0D300094C938 /* CreateViewController.swift */; };
+		B11CD8311CFD1B430094C938 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8301CFD1B430094C938 /* TermsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B11CD82E1CFD0D300094C938 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		B11CD8301CFD1B430094C938 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */,
 				B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */,
 				B11CD82E1CFD0D300094C938 /* CreateViewController.swift */,
+				B11CD8301CFD1B430094C938 /* TermsViewController.swift */,
 			);
 			path = carousel;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11CD8311CFD1B430094C938 /* TermsViewController.swift in Sources */,
 				B11CD82F1CFD0D300094C938 /* CreateViewController.swift in Sources */,
 				B11CD7F51CFCBB340094C938 /* ViewController.swift in Sources */,
 				B11CD8211CFCBCC50094C938 /* Common.swift in Sources */,
