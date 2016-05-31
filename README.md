@@ -53,12 +53,12 @@ Time spent: `8`
 
 #### The following **additional** features are implemented:
 
-- [X] More detailed error messaging
+- [X] More detailed error messaging - required fields, TOS requirement
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. 
-2. 
+1. UIAlerts are pretty tedious to setup. Easier way? Can we write a function for this?
+2. How to highlight form fields or buttons to draw attention missing info.
 
 ### Video Walkthrough 
 
@@ -72,4 +72,4 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-* Any libraries or borrowed content.
+* Transformation values given for photo tiles in the tutorial didn't seem to work. Tweaked them until positioning looked about right.
