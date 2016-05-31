@@ -15,6 +15,13 @@
 		B11CD8081CFCBB340094C938 /* carouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8071CFCBB340094C938 /* carouselTests.swift */; };
 		B11CD8131CFCBB340094C938 /* carouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8121CFCBB340094C938 /* carouselUITests.swift */; };
 		B11CD8211CFCBCC50094C938 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8201CFCBCC50094C938 /* Common.swift */; };
+		B11CD8231CFCBD010094C938 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8221CFCBD010094C938 /* IntroViewController.swift */; };
+		B11CD8251CFCE6F90094C938 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8241CFCE6F90094C938 /* LoginViewController.swift */; };
+		B11CD8271CFCF41A0094C938 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8261CFCF41A0094C938 /* TutorialViewController.swift */; };
+		B11CD8291CFCF9670094C938 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD8281CFCF9670094C938 /* TimelineViewController.swift */; };
+		B11CD82B1CFCFAED0094C938 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */; };
+		B11CD82D1CFCFCB80094C938 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */; };
+		B11CD82F1CFD0D300094C938 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11CD82E1CFD0D300094C938 /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		B11CD8121CFCBB340094C938 /* carouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carouselUITests.swift; sourceTree = "<group>"; };
 		B11CD8141CFCBB340094C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B11CD8201CFCBCC50094C938 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		B11CD8221CFCBD010094C938 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B11CD8241CFCE6F90094C938 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B11CD8261CFCF41A0094C938 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		B11CD8281CFCF9670094C938 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B11CD82E1CFD0D300094C938 /* CreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				B11CD7F91CFCBB340094C938 /* Assets.xcassets */,
 				B11CD7FB1CFCBB340094C938 /* LaunchScreen.storyboard */,
 				B11CD7FE1CFCBB340094C938 /* Info.plist */,
+				B11CD8221CFCBD010094C938 /* IntroViewController.swift */,
+				B11CD8241CFCE6F90094C938 /* LoginViewController.swift */,
+				B11CD8261CFCF41A0094C938 /* TutorialViewController.swift */,
+				B11CD8281CFCF9670094C938 /* TimelineViewController.swift */,
+				B11CD82A1CFCFAED0094C938 /* ConversationsViewController.swift */,
+				B11CD82C1CFCFCB80094C938 /* SettingsViewController.swift */,
+				B11CD82E1CFD0D300094C938 /* CreateViewController.swift */,
 			);
 			path = carousel;
 			sourceTree = "<group>";
@@ -259,9 +280,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11CD82F1CFD0D300094C938 /* CreateViewController.swift in Sources */,
 				B11CD7F51CFCBB340094C938 /* ViewController.swift in Sources */,
 				B11CD8211CFCBCC50094C938 /* Common.swift in Sources */,
 				B11CD7F31CFCBB340094C938 /* AppDelegate.swift in Sources */,
+				B11CD82B1CFCFAED0094C938 /* ConversationsViewController.swift in Sources */,
+				B11CD8251CFCE6F90094C938 /* LoginViewController.swift in Sources */,
+				B11CD8291CFCF9670094C938 /* TimelineViewController.swift in Sources */,
+				B11CD8271CFCF41A0094C938 /* TutorialViewController.swift in Sources */,
+				B11CD8231CFCBD010094C938 /* IntroViewController.swift in Sources */,
+				B11CD82D1CFCFCB80094C938 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
